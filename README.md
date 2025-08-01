@@ -1,6 +1,6 @@
 Proyecto e-commerce para el curso FrontEnd JS - TalentoTech.
 
-Se utilizó HTML y CSS.
+Se utilizó HTML, CSS y JS.
 
 Algunos de los conceptos implementados en la página fueron:
 - División en header, navbar, body y footer.

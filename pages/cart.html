@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <script src="https://kit.fontawesome.com/1322a03e6e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="stylesheet" href="../estilos/cart/cart.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html" class="brand-name">
+            Comercio Independiente
+            <i class="fa-solid fa-store"></i>
+        </a>
+        <div>
+            <ul id="navbar" class="navbar">\
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="store.html">Tienda</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>ELIMINAR</td>
+                        <td>IMAGEN</td>
+                        <td>PRODUCTO</td>
+                        <td>PRECIO</td>
+                        <td>CANTIDAD</td>
+                        <td>SUBTOTAL</td>
+                    </tr>
+                </thead>
+                <tbody id="tabla_carrito">
+                </tbody>
+            </table>
+        </section>
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Aplicar Cupón</h3>
+                <div>
+                    <input type="text" placeholder="Ingresa tu cupón">
+                    <button class="normal">Aplicar</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Total del Carrito</h3>
+                <table>
+                    <tr>
+                        <td>Subtotal del Carrito</td>
+                        <td id="total">$335</td>
+                    </tr>
+                    <tr>
+                        <td>Envío</td>
+                        <td>Gratis</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong id="total">$335</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceder al pago</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="ventajas">
+            <div class="ventajas-container">
+                <div class="ventajas-item">
+                    <div class="ventajas-icon">
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                    <div class="ventajas-text">
+                        <h4>Cuotas sin interés</h4>
+                        <p>Con bancos seleccionados</p>
+                    </div>
+                </div>
+                <div class="ventajas-item">
+                    <div class="ventajas-icon">
+                        <i class="fa-solid fa-rotate-left"></i>
+                    </div>
+                    <div class="ventajas-text">
+                        <h4>Devolución Fácil</h4>
+                        <p>30 días para cambios y devoluciones</p>
+                    </div>
+                </div>
+                <div class="ventajas-item">
+                    <div class="ventajas-icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="ventajas-text">
+                        <h4>Compra Segura</h4>
+                        <p>Tus datos están protegidos</p>
+                    </div>
+                </div>
+                <div class="ventajas-item">
+                    <div class="ventajas-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div class="ventajas-text">
+                        <h4>Soporte 24/7</h4>
+                        <p>Atención al cliente siempre disponible</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <h3>Atención al Cliente</h3>
+                    <ul>
+                        <li><a href="#">Centro de Ayuda</a></li>
+                        <li><a href="#">Métodos de Pago</a></li>
+                        <li><a href="#">Envíos y Entregas</a></li>
+                        <li><a href="#">Cambios y Devoluciones</a></li>
+                        <li><a href="#">Facturación</a></li>
+                    </ul>
+                </div>                
+                <div class="footer-section">
+                    <h3>Categorías</h3>
+                    <ul>
+                        <li><a href="#">Electrodomésticos</a></li>
+                        <li><a href="#">Ropa y Moda</a></li>
+                        <li><a href="#">Deportes y Fitness</a></li>
+                        <li><a href="#">Belleza y Cuidado</a></li>
+                        <li><a href="#">Libros y Entretenimiento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Acerca de Nosotros</h3>
+                    <ul>
+                        <li><a href="#">Nuestra Historia</a></li>
+                        <li><a href="#">Trabaja con Nosotros</a></li>
+                        <li><a href="#">Vende en Nuestra Tienda</a></li>
+                        <li><a href="#">Programa de Afiliados</a></li>
+                        <li><a href="#">Nuestras Sucursales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contáctanos</h3>
+                    <div class="contacto" id="contacto">
+                        <form action="https://formspree.io/f/xanorllo" method="POST">
+                            <div class="contacto-item">
+                                <input type="text" placeholder="Escribe tu nombre" required>
+                            </div>
+                            <div class="contacto-item">
+                                <input type="email" placeholder="Escribe tu email" required>
+                            </div>
+                            <div class="contacto-item">
+                                <textarea rows="4" placeholder="Escribe tu mensaje" required></textarea>
+                            </div>
+                            <button type="submit" class="contacto-submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="metodos">
+                <h4>Métodos de Pago Aceptados</h4>
+                <div class="metodos-pago">
+                    <i title="VISA" class="fa-brands fa-cc-visa fa-2xl"></i>
+                    <i title="MasterCard" class="fa-brands fa-cc-mastercard fa-2xl"></i>
+                    <i title="AMEX" class="fa-brands fa-cc-amex fa-2xl"></i>
+                    <i title="PayPal" class="fa-brands fa-cc-paypal fa-2xl"></i>
+                    <i title="ApplePay" class="fa-brands fa-cc-apple-pay fa-2xl"></i>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 E-commerce - Manuel Varea. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Términos y Condiciones</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Política de Cookies</a>
+                    <a href="#">Defensa del Consumidor</a>
+                    <a href="#">Botón de Arrepentimiento</a>
+                </div>
+            </div>
+        </div>    
+    </footer>
+    <script src="../script/script.js"></script>
+    <script src="../script/cart.js"></script>
+</body>
+
+</html>

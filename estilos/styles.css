@@ -1,7 +1,7 @@
-@import url(header.css);
-@import url(main.css);
-@import url(productos.css);
-@import url(footer.css);
+@import url(index/header.css);
+@import url(index/main.css);
+@import url(index/productos.css);
+@import url(index/footer.css);
 
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');

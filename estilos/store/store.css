@@ -1,0 +1,26 @@
+.page-header {
+    background-image: url(../../img/blackfriday.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+    p {
+        color: #222;
+        font-weight: bold;
+    }
+}
+
+.producto img {
+    display: flex;
+    object-fit: contain;
+    height: 250px;
+}
+
+
+
